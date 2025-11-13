@@ -1,4 +1,4 @@
-import styles from './videoPlayer.module.css';
+import styles from "../styles/Videoplayer.module.css";
 
 type VideoPlayerProps = {
   url: string;
