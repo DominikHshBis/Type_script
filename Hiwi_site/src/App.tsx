@@ -2,7 +2,7 @@ import Home from "./pages/home";
 import "./styles/App.css";
 //import Navbar from "./components/navigation";
 //import VideoPlayer from "./components/VideoPlayer";
-
+// bananen sind lecker!
 function App() {
   return  (
     <>
