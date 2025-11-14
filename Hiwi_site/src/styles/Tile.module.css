@@ -9,6 +9,7 @@
   transition: transform 0.2s ease;
   height: 150px;
   width: 150px;
+  
 }
 
 .tile:hover {
