@@ -1,11 +1,15 @@
 import Home from "./pages/home";
 import "./styles/App.css";
+//import Navbar from "./components/navigation";
 //import VideoPlayer from "./components/VideoPlayer";
 
 function App() {
-  return  <Home />;
-  
-  
+  return  (
+    <>
+    <Home />;
+    
+    </>
+  )
   /*(
 
     <div style={{ padding: '2rem' }}>

@@ -1,6 +1,10 @@
 .navigation {
-  background-color: #1e1e1e;
-  padding: 1rem 2rem;
+  max-width: 2560px;
+  background-color: #656060;
+  padding: 1rem 0rem;
+  width: 100%;
+  justify-content: flex-end;
+  
 }
 
 .navList {
@@ -9,15 +13,24 @@
   gap: 2rem;
   margin: 0;
   padding: 0;
+  font-size: large;
+  
 }
 
 .navList li a {
-  color: white;
+  color: rgb(66, 22, 176);
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 2rem;
+  margin: 0;
+  padding-left: 0%;
+  transition: transform 0.2s ease;
+  padding: 1rem;
+  
 }
 
 .navList li a:hover {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  transform: scale(1.05);
+  
 }

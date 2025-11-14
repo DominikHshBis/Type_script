@@ -2,7 +2,7 @@ import Tile from './Tile';
 import styles from '../styles/TileGrid.module.css';
 
 const tiles = Array.from({ length: 20 }, (_, i) => ({
-  title: `Kachel ${i + 1}`,
+  title: `Bild ${i + 1}`,
   link: `/seite-${i + 1}`,
 }));
 
