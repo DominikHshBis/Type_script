@@ -6,7 +6,7 @@ type TileProps = {
   image: string;
 };
 
-export default function Tile({ title, link, image }: TileProps) { // das Tileprops weisst hier einfach den Parametern die vorher definierten Werte zu wie  title:str, link:string, image:string
+export default function Tile({title, link, image }: TileProps) { // das Tileprops weisst hier einfach den Parametern die vorher definierten Werte zu wie  title:str, link:string, image:string
   return (
     
     <a href={link} className={styles.tile}>
