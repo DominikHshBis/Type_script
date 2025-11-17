@@ -1,8 +1,8 @@
 from fastapi import APIRouter
 
-router = APIRouter()
+grund_router = APIRouter()
 
-@router.get("/")
+@grund_router.get("/")
 def read_root():
     return {"message: das ende ist nah"}
 
